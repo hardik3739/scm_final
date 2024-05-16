@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="index2.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+           <img src="img/backgroundimageb.jpg" alt="Background image" width="1200px" height="300px">
+            <h1>FICTION BOOKS</h1>
+            
+    </nav>
+    <div class="book-list">
+    <div class="book">
+        <img src="img/book4.jpg" alt="Book 4" width="150px">
+        <h2>The sound and the fury</h2>
+        <p>Author: William Faulkner</p>
+        <p>Price: ₹ 300 </p>
+        <button onclick="addToCart(1, 'Book 1', 300)">Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="img/book5.jpg" alt="Book 5" width="150px">
+        <h2>400 Days</h2>
+        <p>Author: Chetan Bhagat</p>
+        <p>Price: ₹ 170 </p>
+        <button onclick="addToCart(2, 'Book 2', 170)">Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="img/book6.jpg" alt="Book 6" width="150px">
+        <h2>The Alchemist</h2>
+        <p>Author:Panlo Coelho</p>
+        <p>Price: ₹ 420 </p>
+        <button onclick="addToCart(3, 'Book 3', 420)">Add to Cart</button>
+    </div>
+        <div id="cart">
+            <h4>Shopping Cart</h4>
+            <div id="cartItems"></div>
+            <p>Total:₹ <span id="cartTotal">0.00</span></p>
+        </div>
+    </body>
+</html> 
+        

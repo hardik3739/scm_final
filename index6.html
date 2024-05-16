@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style6.css">
+    <script src="index6.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/backgroundimagef.jpg" alt="background image" width="1200px" height="300px">
+            <h1>HUMOUR BOOOKS</h1>
+    </nav>
+    <div class="book-list">
+    <div class="book">
+        <img src="img/book16.jpg" alt="Book 16" width="150px">
+        <h2>Yes Please</h2>
+        <p>Author: Amy Poehler</p>
+        <p>Price: ₹ 140 </p>
+        <button onclick="addToCart(1, 'Book 1', 140)">Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="img/book17.jpg" alt="Book 17" width="150px">
+        <h2>Bossypants</h2>
+        <p>Author: Tina Fey</p>
+        <p>Price: ₹ 230 </p>
+        <button onclick="addToCart(2, 'Book 2', 230)">Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="img/book18.jpg" alt="Book 18" width="150px">
+        <h2>Born a Crime</h2>
+        <p>Author: Trevor Noah</p>
+        <p>Price: ₹ 500 </p>
+        <button onclick="addToCart(3, 'Book 3', 500)">Add to Cart</button>
+    </div>
+    <div id="cart">
+        <h4>Shopping Cart</h4>
+        <div id="cartItems"></div>
+        <p>Total:₹ <span id="cartTotal">0.00</span></p>
+    </div>
+</body>
+</html>

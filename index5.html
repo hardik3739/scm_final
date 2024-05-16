@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style5.css">
+    <script src="index5.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/backgroundimagee.jpg" alt="background image" width="1200px" height="300px">
+            <h1>LITERATURE BOOKS</h1>
+    </nav>
+    <div class="book-list">
+    <div class="book">
+        <img src="img/book13.jpg" alt="Book 13" width="150px">
+        <h2>The Picture of Dorian Gray</h2>
+        <p>Author: Oscar Wilde</p>
+        <p>Price:₹170 </p>
+        <button onclick="addToCart(1, 'Book 1', 170)">Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="img/book14.jpg" alt="Book 14" width="150px">
+        <h2>Little Women</h2>
+        <p>Author: Louisa May Alcott</p>
+        <p>Price: ₹380 </p>
+        <button onclick="addToCart(2, 'Book 2', 380)">Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="img/book15.jpg" alt="Book 15" width="150px">
+        <h2>Nineteen Eighty-Four</h2>
+        <p>Author:George Orwell</p>
+        <p>Price: ₹400 </p>
+        <button onclick="addToCart(3, 'Book 3', 400)">Add to Cart</button>
+    </div>
+    <div id="cart">
+        <h4>Shopping Cart</h4>
+        <div id="cartItems"></div>
+        <p>Total:₹ <span id="cartTotal">0.00</span></p>
+    </div>
+</body>
+</html>

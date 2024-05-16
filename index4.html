@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style4.css">
+    <script src="index4.js"defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+           <img src="img/backgroundimaged.jpg" alt="background iamge" width="1200px" height="300px">
+            <h1>POETRY BOOKS</h1>
+    </nav>
+    <div class="book-list">
+    <div class="book">
+        <img src="img/book10.jpg" alt="Book 10" width="150px">
+        <h2>The Sun and Her Flowers</h2>
+        <p>Author: Rupi Kaur</p>
+        <p>Price: ₹235 </p>
+        <button onclick="addToCart(1, 'Book 1', 235)">Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="img/book11.jpg" alt="Book 11" width="150px">
+        <h2>Devotions</h2>
+        <p>Author: Mary Oliver</p>
+        <p>Price: ₹130 </p>
+        <button onclick="addToCart(2, 'Book 2', 130)">Add to Cart</button>
+    </div>
+    <div class="book">
+        <img src="img/book12.jpg" alt="Book 12" width="150px">
+        <h2>Yesterday I was the Moon</h2>
+        <p>Author: Noor Unnahar</p>
+        <p>Price: ₹370 </p>
+        <button onclick="addToCart(3, 'Book 3', 370)">Add to Cart</button>
+    </div>
+    <div id="cart">
+        <h4>Shopping Cart</h4>
+        <div id="cartItems"></div>
+        <p>Total:₹ <span id="cartTotal">0.00</span></p>
+    </div>
+</body>
+</html>

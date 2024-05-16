@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <script src="index1.js" defer></script>
+</head>
+<body>
+        <nav>
+                <img src="img/imagea.jpg" alt="Background image" width="1200px" height="300px">
+                <h1>ROMANTIC BOOKS</h1>
+        </div>
+        </nav>
+        
+    <div class="book-list">
+        <div class="book">
+            <img src="img/book1.jpg" alt="Book 1" width="150px">
+            <h2>Touch of eternity</h2>
+            <p>Author: Durjoy Dutta</p>
+            <p>Price: ₹200 </p>
+            <button onclick="addToCart(1, 'Book 1', 200)">Add to Cart</button>
+        </div>
+        <div class="book">
+            <img src="img/book2.jpg" alt="Book 2" width="150px">
+            <h2>When I am with you</h2>
+            <p>Author: Durjoy Dutta</p>
+            <p>Price: ₹149 </p>
+            <button onclick="addToCart(2, 'Book 2', 149)">Add to Cart</button>
+        </div>
+            <div class="book">
+                <img src="img/book3.jpg" alt="Book 3" width="150px">
+                <h2>Something I never told you</h2>
+                <p>Author: Shravya Bhinder</p>
+                <p>Price: ₹181 </p>
+                <button onclick="addToCart(3, 'Book 3', 181)">Add to Cart</button>
+            </div>
+            <div id="cart">
+                <h4>Shopping Cart</h4>
+                <div id="cartItems"></div>
+                <p>Total:₹ <span id="cartTotal">0.00</span></p>
+            </div>
+        </body>
+</html>
